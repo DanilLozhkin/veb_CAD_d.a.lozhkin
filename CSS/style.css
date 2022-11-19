@@ -19,12 +19,11 @@ a{
     font-size: 1.71rem;
     
 }
-nav, h3, h4, h2{
+nav, h3, h4, h2,h1, button, .button_centr{
     text-align: center;
 }
 h1{
     color: var(--primary-color);
-    text-align: center;
     font-size: 1.42rem;
     font-weight: 700;
 }
@@ -44,6 +43,7 @@ button{
     width: 200px;
     font-size: 2rem;
     text-align: center;
+    
 }
 .button_2{
     background-color: var(--tertiary-color);
@@ -54,7 +54,7 @@ button{
     height: 40px;
     width: 160px;
     font-size: 2rem;
-    text-align: center;
+    
 }
 .button_3{
     background-color: var(--quinary-color);
@@ -62,6 +62,7 @@ button{
     border: solid var(--quinary-color);
     border-radius: 5px;
     font-size: 2rem;
+    text-align:left;
 }
 
 
@@ -71,8 +72,6 @@ p{
     font-size: 1.43rem;
 }
 .second_p{
-    color: var(--secondary-color);
-    font-weight: 500;
     font-size: 1.5rem;
 }
 .tertiar_P{
@@ -90,11 +89,7 @@ p{
     font-weight: 600;
     font-size: 1.71rem;
 }
-footer{
-    background-color: var(--primary-color);
-    font-weight: 700;
-    font-size: 1.71rem;
-}
+
 .mean_hadder{
     color: var(--primary-color);
     font-weight: 700;
@@ -105,13 +100,22 @@ footer{
     font-size: 1.5rem;
     font-weight: 400;
 }
-.footer_nav{
-    text-align: left;
+footer nav, footer{
+    background-color: var(--primary-color);
     color: var(--tertiary-color);
+    font-weight: 700;
+    font-size: 1.71rem;
+    text-align:left;
 }
-.footer_h1{
-    color: var(--tertiary-color);
+.footer_1{
+    font-size: 1.33rem;
+    text-align:left;
 }
+.footer_2{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
 .radio_boxs{
     color: var(--hexadecimaly-color);
     font-weight: 600;
