@@ -16,23 +16,22 @@ a{
     color: var(--tertiary-color);
     text-decoration: none;
     font-weight: 600;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
     
 }
 nav, h3, h4, h2,h1, button, .button_centr{
     text-align: center;
 }
-
 h1{
     color: var(--primary-color);
-    font-size: 2,5rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 button{
     height: 60px;
     width: 250px;
     font-weight: 700;
-    font-size: 1,875rem;
+    font-size: 3rem;
 }
 
 .button_1{
@@ -42,7 +41,7 @@ button{
     border-radius: 20px;
     height: 40px;
     width: 200px;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
     text-align: center;
     
 }
@@ -54,7 +53,7 @@ button{
     border-radius: 20px;
     height: 40px;
     width: 160px;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
     
 }
 .button_3{
@@ -62,7 +61,7 @@ button{
     color: var(--tertiary-color);
     border: solid var(--quinary-color);
     border-radius: 5px;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
     text-align:left;
 }
 
@@ -73,52 +72,52 @@ p{
     font-size: 1.43rem;
 }
 .second_p{
-    font-size: 1,875rem;
+    font-size: 3rem;
 }
 .tertiar_P{
     color: var(--secondary-color);
     font-weight: 600;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
 }
 .quater_p{
     color: var(--quinary-color);
     font-weight: 600;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
 }
 .quinar_p{
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
 }
 
 .mean_hadder{
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 1,875rem;
+    font-size: 2.4rem;
 }
 .mean_menu{
     color: var(--secondary-color);
-    font-size: 1,875rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 footer nav, footer{
     background-color: var(--primary-color);
     color: var(--tertiary-color);
     font-weight: 700;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
     text-align:left;
 }
 .footer_1{
-    font-size: 1,875rem;
+    font-size: 2.4rem;
     text-align:left;
 }
 .footer_2{
     font-weight: 600;
-    font-size: 1,875rem;
+    font-size: 3rem;
 }
 
 .radio_boxs{
     color: var(--hexadecimaly-color);
     font-weight: 600;
-    font-size: 0,875rem;
+    font-size: 1.4rem;
 }
