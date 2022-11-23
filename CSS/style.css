@@ -1,6 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* эксперемент */
+/* body{
+    margin: 0; убираем отступы 
+}
+
+ul{
+    list-style: none;убираем маркеры
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none; убираем подчеркивание у ссылок
+    display: inline-block; для того чтобы ссылки не слипались 
+    color: #000; цвет ссылок 
+    border: 1px solid #FF7B47; цвет рамки 
+    padding: 0.5em;
+    margin-right: 0rem;
+
+}
+section{
+    background-color: #FF7B47; цвет фона 
+    padding: 1em;отступы внутри блока
+    margin-bottom: 1em; отступы снизу
+}
+
+.card{
+    background-color: #fff;
+    padding: 1em;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+}
+:root{
+    box-sizing: border-box;
+
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+ */
 
 
+/* основа */
 :root{
     font-size: 62.5%;
     letter-spacing: 0.2px;
@@ -19,13 +61,18 @@ a{
     font-size: 1.4rem;
     
 }
-nav, h3, h4, h2,h1, button, .button_centr{
+nav, h3, h4, h2,h1, button, .button_centr,p{
     text-align: center;
 }
 h1{
     color: var(--primary-color);
     font-size: 4rem;
     font-weight: 700;
+}
+h2{
+    font-size: 4rem;
+    color: var(--primary-color);
+    
 }
 button{
     height: 60px;
@@ -72,7 +119,7 @@ p{
     font-size: 1.43rem;
 }
 .second_p{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .tertiar_P{
     color: var(--secondary-color);
@@ -83,13 +130,25 @@ p{
     color: var(--quinary-color);
     font-weight: 600;
     font-size: 1.4rem;
+    text-align: left;
 }
 .quinar_p{
     color: var(--primary-color);
     font-weight: 600;
     font-size: 1.4rem;
+    text-align: left;
 }
-
+.sixthr_p{
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.seventhr_p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: left;
+}
 .mean_hadder{
     color: var(--primary-color);
     font-weight: 700;
@@ -113,11 +172,16 @@ footer nav, footer{
 }
 .footer_2{
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 1.6rem;
 }
 
 .radio_boxs{
-    color: var(--hexadecimaly-color);
+    color: var(--hexadecimaly-color); 
     font-weight: 600;
+    font-size: 1.4rem;
+}
+.second_a{
+    color: var(--primary-color);
+    font-weight: 700;
     font-size: 1.4rem;
 }
