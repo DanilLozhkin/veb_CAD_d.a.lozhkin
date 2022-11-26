@@ -53,13 +53,38 @@ section{
     --quaternary-color: #0D5C63;
     --quinary-color: #FF7B47;
     --hexadecimaly-color: #BDBDBD;
+    box-sizing: border-box;
 }
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
 a{
     color: var(--tertiary-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.4rem;
-    
+}
+.second_a{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 3em;
+    margin-left: -3em;
+}
+.tertiar_a{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-right: 0.6em;
+}
+ul{
+    list-style: none;
+    margin-left: -4em;
+}
+
+footer nav ul{
+    margin-left: -1em;
 }
 nav, h3, h4, h2,h1, button, .button_centr,p{
     text-align: center;
@@ -68,16 +93,32 @@ h1{
     color: var(--primary-color);
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 1.3em;
 }
 h2{
     font-size: 4rem;
     color: var(--primary-color);
-    
+    margin-top: 5.1em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+h3{
+    font-size: 3.4rem;
+    color: var(--primary-color);
+    margin-top: 3.7em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.mergen_h2{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 button{
     height: 60px;
-    width: 250px;
-    font-weight: 700;
+    max-width: 700px;
+    min-width: 150px;
     font-size: 3rem;
 }
 
@@ -90,7 +131,7 @@ button{
     width: 200px;
     font-size: 1.4rem;
     text-align: center;
-    
+    margin-bottom: 2em;
 }
 .button_2{
     background-color: var(--tertiary-color);
@@ -101,25 +142,54 @@ button{
     height: 40px;
     width: 160px;
     font-size: 1.4rem;
-    
+    margin-bottom: 6em;
 }
+
 .button_3{
     background-color: var(--quinary-color);
     color: var(--tertiary-color);
     border: solid var(--quinary-color);
     border-radius: 5px;
     font-size: 1.4rem;
-    text-align:left;
+    margin-left: 4.3em;
+    margin-top: 3em;
+    width: 270px;
 }
-
+.button_4{
+    background-color: var(--quinary-color);
+    color: var(--tertiary-color);
+    border: solid var(--quinary-color);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    width: 270px;
+    
+}
+div.div_second button{
+    background-color: var(--quinary-color);
+    border: solid var(--quinary-color);
+    border-radius: 5px;
+    color: var(--tertiary-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
 
 p{
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 1.43rem;
+    margin-left: 3.9em;
+    margin-right: 3.9em;
+}
+.mergen_p{
+    margin-left: 5.6em;
+    margin-right: 5.6em;
+    margin-bottom: 4.2em;
 }
 .second_p{
     font-size: 2rem;
+    margin-left: 2.6em;
+    margin-right: 2.6em;
+    margin-bottom: 4em;
 }
 .tertiar_P{
     color: var(--secondary-color);
@@ -131,33 +201,67 @@ p{
     font-weight: 600;
     font-size: 1.4rem;
     text-align: left;
+    margin-left: 0em;
+    margin-right: 1em;
+  
 }
 .quinar_p{
     color: var(--primary-color);
     font-weight: 600;
     font-size: 1.4rem;
     text-align: left;
+    margin-left: 0em;
 }
+
 .sixthr_p{
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 1.4rem;
     text-align: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3.5em;
 }
 .seventhr_p{
     font-size: 1.4rem;
     font-weight: 600;
     text-align: left;
+    margin-left: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
+.eightr_p{
+    margin-top: 0.7em;
+    margin-left: 6.6em;
+    margin-right: 6.6em;
+    margin-bottom: 4.2em;
+}
+.nine_p{
+    text-align: left;
+    margin-left: 4em;
+    margin-right: 8em;
+    margin-bottom: 0.7em;
+}
+video{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
 .mean_hadder{
     color: var(--primary-color);
     font-weight: 700;
     font-size: 2.4rem;
+    margin-left: 3.5em;
+    margin-right: 2em;
 }
 .mean_menu{
     color: var(--secondary-color);
     font-size: 3rem;
     font-weight: 400;
+    
+}
+footer{
+    margin-top: -6em;
 }
 footer nav, footer{
     background-color: var(--primary-color);
@@ -169,19 +273,114 @@ footer nav, footer{
 .footer_1{
     font-size: 2.4rem;
     text-align:left;
+    color: var(--tertiary-color);
+    margin-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 .footer_2{
     font-weight: 600;
     font-size: 1.6rem;
+    padding-bottom: 1em;
+    padding-top: 2em;
 }
+nav.footer_3 ul li{
+
+    margin-bottom: 1em;
+}
+.footer_4{
+    padding-bottom: 5em;
+}
+
 
 .radio_boxs{
     color: var(--hexadecimaly-color); 
     font-weight: 600;
     font-size: 1.4rem;
+    margin-top: 2.9em;
+    margin-left: 4.3em;
+    margin-right: 4.3em;
+    display: block;
 }
-.second_a{
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 1.4rem;
+.lable_1{
+    margin-right: 2em;
+    margin-bottom: 1em;
+    border: 1px solid var(--secondary-color);
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    padding-right: 0.7em;
+}
+label.lable_1 input{
+    margin-bottom: 2em;
+}
+.lable_2{
+    margin-right: 2em;
+    margin-bottom: 1em;
+    border: 1px solid var(--secondary-color);
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    padding-right: 0.7em;
+}
+.lable_3{
+    border: 1px solid var(--secondary-color);
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    padding-right: 1em;
+}
+.lable_4{
+    border: 1px solid var(--secondary-color);
+    padding-top: 0.5em;
+    padding-bottom: 5em;
+    padding-right: 1em;
+}
+label.lable_4 input{
+    margin-bottom: 6em;
+}
+.select_1{
+    margin-right: 10em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    border: 1px solid var(--secondary-color);
+
+}
+.li_ram{
+    border: 1px solid var(--secondary-color);
+    margin-left: 4.2em;
+    margin-right: 4.2em;
+    margin-bottom: 4em;
+    padding-top: 3.5em;
+}
+.div_primary{
+    border: 1px solid var(--secondary-color);
+    margin-left: 4.2em;
+    margin-right: 4.2em;
+    margin-bottom: 4em;
+    padding-top: 3.5em;
+    border-radius: 0.5em;
+    padding-left: 3.5em;
+}
+.div_ferst{
+    display: flex;
+
+}
+.div_second{
+    display: flex;
+    border: 1px solid var(--secondary-color);
+}
+.margin_ul{
+    margin-top: 5em;
+}
+.nav_ferst{
+    margin-top: 10em;
+}
+nav.nav_ferst ul li{
+    margin-bottom: 3em;
+}
+main{
+    margin-top: 15em;
+}
+header{
+    margin-bottom: 15em;
+    margin-top: 2.3em;
+    margin-right: 3em;
 }
