@@ -365,7 +365,9 @@ label.lable_4 input{
 }
 .div_second{
     display: flex;
-    border: 1px solid var(--secondary-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 7px;
+    margin-right: 4.1em;
 }
 .margin_ul{
     margin-top: 5em;
