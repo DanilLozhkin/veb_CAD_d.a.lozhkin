@@ -306,6 +306,7 @@ nav.footer_3 ul li{
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
+    padding-left: 1em;
 }
 
 .lable_2{
@@ -318,6 +319,7 @@ nav.footer_3 ul li{
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
+    padding-left: 1em;
 }
 .lable_3{
     border: 1px solid var(--secondary-color);
@@ -327,6 +329,7 @@ nav.footer_3 ul li{
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
+    padding-left: 1em;
 }
 .lable_4{
     border: 1px solid var(--secondary-color);
@@ -337,7 +340,7 @@ nav.footer_3 ul li{
     
     margin-bottom: 1.4em;
     width: 21em;
-    
+    padding-left: 1em;
 }
 
 .select_1{
