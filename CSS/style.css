@@ -300,26 +300,22 @@ nav.footer_3 ul li{
     border: 1px solid var(--secondary-color);
     display: block;
     line-break: loose;
-    padding-top: 0.5em;
-    padding-bottom: 0.7em;
-    padding-right: 0.7em;
+    height: 3em;
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
-    padding-left: 1em;
+    border-radius: 3px;
 }
 
 .lable_2{
     border: 1px solid var(--secondary-color); 
     display: block;
     line-break: loose;
-    padding-top: 0.5em;
-    padding-bottom: 0.7em;
-    padding-right: 0.7em;
+    height: 3em;
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
-    padding-left: 1em;
+    border-radius: 3px;
 }
 .lable_3{
     border: 1px solid var(--secondary-color);
@@ -330,6 +326,7 @@ nav.footer_3 ul li{
     margin-right: 1.5em;
     width: 21em;
     padding-left: 1em;
+    background-color: var(--septenary-color);
 }
 .lable_4{
     border: 1px solid var(--secondary-color);
@@ -342,7 +339,9 @@ nav.footer_3 ul li{
     width: 21em;
     padding-left: 1em;
 }
-
+.footer_end{
+    height: 3.8em;
+}
 .select_1{
     border: 1px solid var(--secondary-color);
 
@@ -356,7 +355,6 @@ nav.footer_3 ul li{
     padding-top: 3.5em;
     width: 32.5em;
 
-    
 }
 .div_header{
     display: flex;
