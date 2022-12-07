@@ -484,9 +484,7 @@ header{
     display: flex;
     margin-top: 3.7em;
     flex-wrap: wrap;
-    justify-content: center;
     padding-bottom: 3.7em;
-    flex-direction: reverse;
     justify-content: space-between;
 }
 @media screen and (max-width: 800px){
