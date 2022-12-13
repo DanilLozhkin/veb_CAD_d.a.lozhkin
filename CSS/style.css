@@ -279,6 +279,9 @@ nav.footer_3 ul li{
     padding-top: 2.4em;
     padding-right: 5em;
 }
+div.footer_4 a{
+    margin-left: 1.5em;
+}
 .FOOTER_END{
     display: flex;
     flex-flow: row wrap;
@@ -384,6 +387,7 @@ nav.footer_3 ul li{
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
+
 .div_primary{
     border: 1px solid var(--secondary-color);
     margin-left: 4.2em;
@@ -450,7 +454,9 @@ header{
 }
 @media screen and (min-width: 800px){
     header{
-        background-image: url(https://thefaircottage.com/media/mageplaza/blog/post/w/h/white_mountain.jpg);
+        background-color: var(--tertiary-color);
+        background-image: url(/img/cover_1.jpg);
+        
     }
     .nav_ferst{
         display: none;
@@ -469,13 +475,13 @@ header{
 
 }
 .video_section{
-    background-image: url(https://polonia39.com/wp-content/uploads/elementor/thumbs/Flag-Krakow-oe8akgidavr7wqtwm3xu542dmjyq3ejf8qe7vwstko.jpg);
-
+    background: -webkit-linear-gradient(90deg,var(--primary-color),#3D3C5D,var(--tertiary-color));                                                    
     background-size: cover;
     padding-bottom: 17.4em;
+
 }
 .section_end{
-    background-image: url(http://vng.edu.vn/sites/default/files/1_3.jpg);
+    background-image: url(/img/cover_2.jpg);
     background-size: cover;
     padding-bottom: 8.5em;
     padding-top: 9em;
