@@ -478,7 +478,7 @@ header{
 
 }
 .video_section{
-    background: -webkit-linear-gradient(90deg,var(--primary-color),#3D3C5D,var(--tertiary-color));                                                    
+    background: linear-gradient(var(--tertiary-color),var(--tertiary-color) ,var(--primary-color), var(--primary-color));                                                                                                   
     background-size: cover;
     
     padding-bottom: 17.4em;
