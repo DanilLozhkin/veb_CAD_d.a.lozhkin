@@ -78,6 +78,7 @@ button{
     max-width: 700px;
     min-width: 150px;
     font-size: 3rem;
+    box-shadow:  6px 10px 10px var(--secondary-color);
 }
 
 .button_1{
@@ -136,7 +137,9 @@ div.div_second button{
     color: var(--tertiary-color);
     font-size: 1.4rem;
     font-weight: 400;
+    box-shadow: none;
 }
+
 
 p{
     color: var(--secondary-color);
@@ -456,7 +459,7 @@ header{
     header{
         background-color: var(--tertiary-color);
         background-image: url(/img/cover_1.jpg);
-        
+        background-size: cover;
     }
     .nav_ferst{
         display: none;
@@ -477,10 +480,12 @@ header{
 .video_section{
     background: -webkit-linear-gradient(90deg,var(--primary-color),#3D3C5D,var(--tertiary-color));                                                    
     background-size: cover;
+    
     padding-bottom: 17.4em;
 
 }
 .section_end{
+    background-color: var(--tertiary-color);
     background-image: url(/img/cover_2.jpg);
     background-size: cover;
     padding-bottom: 8.5em;
