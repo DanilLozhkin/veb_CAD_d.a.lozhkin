@@ -11,11 +11,14 @@
     --quinary-color: #FF7B47;
     --hexadecimaly-color: #BDBDBD;
     --septenary-color: #FAFAFA;
+    --end-color: #b3b3b3;
+    --end2-color: #ff0000;
     box-sizing: border-box;
 }
 *, ::after, ::before{
     box-sizing: inherit;
 }
+
 
 a{
     color: var(--tertiary-color);
@@ -53,13 +56,14 @@ h1{
     font-weight: 700;
     margin-bottom: 1.3em;
 }
-h2{
+h2,legend{
     font-size: 4rem;
     color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0em;
     margin-left: 1.5em;
     margin-right: 1.5em;
+
 }
 h3{
     font-size: 3.4rem;
@@ -76,7 +80,7 @@ h3{
 button{
     height: 60px;
     max-width: 700px;
-    min-width: 150px;
+    min-width: 140px;
     font-size: 3rem;
     box-shadow:  6px 10px 10px var(--secondary-color);
 }
@@ -94,6 +98,7 @@ button{
     margin-right: 0.5em;
     
 }
+
 .button_2{
     background-color: var(--tertiary-color);
     color: var(--quaternary-color);
@@ -120,6 +125,23 @@ button{
     margin-bottom: 1.5em;
     width: 270px;
 }
+.button_3_form{
+    background-color: var(--quinary-color);
+    color: var(--tertiary-color);
+    border: solid var(--quinary-color);
+    border-radius: 5px;
+    font-size: 2rem;
+    width: 40px;
+    margin-left: 0.2em;
+    margin-right: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_3_form:hover {
+    background-color: var(--hexadecimaly-color)
+  }
 .button_4{
     background-color: var(--quinary-color);
     color: var(--tertiary-color);
@@ -140,7 +162,13 @@ div.div_second button{
     box-shadow: none;
 }
 
-
+.div_button_3_end{
+    display: flex;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    justify-content: flex-end;
+    margin-right: 5em;
+}
 p{
     color: var(--secondary-color);
     font-weight: 500;
@@ -216,7 +244,7 @@ p{
     max-width: 27em;
     min-width: 10em;
 }
-video{
+iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -302,6 +330,14 @@ div.footer_4 a{
     display: flex;
     flex-wrap: wrap;
 }
+.radio_boxs_form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.8em;
+    font-size: 1.4rem;
+    justify-content: center;
+    color: var(--hexadecimaly-color); 
+}
 .lable_1{
     border: 1px solid var(--secondary-color);
     display: block;
@@ -328,6 +364,7 @@ div.footer_4 a{
     padding-top: 0.5em;
     padding-bottom: 0.7em;
     padding-right: 1em;
+    line-break: loose;
     margin-bottom: 1.4em;
     margin-right: 1.5em;
     width: 21em;
@@ -340,7 +377,7 @@ div.footer_4 a{
     line-break: loose;
     padding-top: 0.5em;
     padding-bottom: 5em;
-    
+    margin-right: 1.4em;
     margin-bottom: 1.4em;
     width: 21em;
     padding-left: 1em;
@@ -446,6 +483,10 @@ main{
     margin-top: 15em;
     margin-bottom: -1.5em;
 }
+main.body_form{
+    
+    background-color: var(--end-color);
+}
 header{
     padding-bottom: 15em;
     padding-top: 2.3em;
@@ -475,7 +516,13 @@ header{
     .lable_4{
         width: 43.5em;
     }
+   
 
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .video_section{
     background: linear-gradient(var(--tertiary-color),var(--tertiary-color) ,var(--primary-color), var(--primary-color));                                                                                                   
@@ -490,6 +537,37 @@ header{
     background-size: cover;
     padding-bottom: 8.5em;
     padding-top: 9em;
+}
+
+.section_form{
+    background-color: var(--tertiary-color);
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position-y: -5.6em;
+    background-position-x: -6em;
+    padding-bottom: 8.5em;
+    padding-top: 9em;
+}
+
+.dif_form{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 30em;
+    padding-right: 0.5em;
+}
+fieldset{
+    max-width: 80em;
+    min-width: 40em;
+    border-color: var(--quinary-color);
+    border-radius: 20px;
+    border-width: 4px;
+}
+legend{
+    color: var(--end2-color);
+    font-weight: 500;
+}
+main.main_form{
+    margin-top: 0em;
 }
 .section_end_end_2{
     margin-bottom: 7em;
@@ -506,4 +584,12 @@ header{
     .radio_boxs{
         display: block;
     }
+}
+::selection {
+    background-color: var(--secondary-color);
+    color: var(--septenary-color);
+}
+::placeholder {
+    color: var(--secondary-color);
+    font-size: 1.5em;
 }
