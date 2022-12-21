@@ -137,10 +137,12 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 1s;
 }
 
 .button_3_form:hover {
-    background-color: var(--hexadecimaly-color)
+    background-color: var(--hexadecimaly-color);
+    transform: scale(1.06);
   }
 .button_4{
     background-color: var(--quinary-color);
